@@ -119,7 +119,7 @@ The following are key results to note:
 The confusion matrix and imbalanced classification report are as follows:
 - Confusion Matrix
 
-![](Photos/BalancedRandomForestClassifier_CM_Snap.png)
+![](Photos/EasyEnsembleClassifier_CM_Snap.png)
 
 
 - Imbalanced Classification Report
