@@ -18,9 +18,12 @@ In the machine model, in order to oversample, the RandomOversSampler was used wi
 The confusion matrix and imbalanced classification report are as follows:
 - Confusion Matrix
 
+![](Photos/RandomOverSampler_CM_Snap.png)
 
 
 - Imbalanced Classification Report
+
+![](Photos/RandomOverSampler_CR_Snap.png)
 
 
 
@@ -35,11 +38,12 @@ In the machine model, another method of oversample, is via the SMOTE oversamplin
 The confusion matrix and imbalanced classification report are as follows:
 - Confusion Matrix
 
+![](Photos/SMOTE_CM_Snap.png)
 
 
 - Imbalanced Classification Report
 
-*Snaps*
+![](Photos/SMOTE_CR_Snap.png)
 
 
 ### ClusterCentroids
@@ -53,14 +57,15 @@ In the machine model, in order to undersample the data, the ClusterCentroids was
 The confusion matrix and imbalanced classification report are as follows:
 - Confusion Matrix
 
+![](Photos/ClusterCentroid_CM_Snap.png)
 
 
 - Imbalanced Classification Report
-*Snaps*
+
+![](Photos/ClusterCentroid_CR_Snap.png)
 
 
 ### SMOTEENN
-*Description*
 In the machine model, we will now perform both oversampling and undersampling combined by using the SMOTEENN algorithm within the Logistic Regression model. The following are key results to note: 
 - There is no Counter
 - The Random State = 1. 
@@ -69,15 +74,16 @@ In the machine model, we will now perform both oversampling and undersampling co
 The confusion matrix and imbalanced classification report are as follows:
 - Confusion Matrix
 
+![](Photos/SMOTEENN_CM_Snap.png)
 
 
 - Imbalanced Classification Report
 
-*Snaps*
+![](Photos/SMOTEENN_CR_Snap.png)
+
 
 
 ### BalancedRandomForestClassifier
-*Description*
 In the machine model, we will now use one of two ensemble learning algorithms and decide on the best performance from there. For this section, we are using the Balanced Random Forest Classifier.
 
 The following are key results to note: 
@@ -91,16 +97,15 @@ The following are key results to note:
 The confusion matrix and imbalanced classification report are as follows:
 - Confusion Matrix
 
+![](Photos/BalancedRandomForestClassifier_CM_Snap.png)
 
 
 - Imbalanced Classification Report
 
-
-*Snaps*
+![](Photos/BalancedRandomForestClassifier_CR_Snap.png)
 
 
 ### EasyEnsembleClassifier
-*Description*
 In the machine model, we will now use one of two ensemble learning algorithms and decide on the best performance from there. For this section, we are using the EasyEnsembleClassifier.
 
 The following are key results to note: 
@@ -114,12 +119,13 @@ The following are key results to note:
 The confusion matrix and imbalanced classification report are as follows:
 - Confusion Matrix
 
+![]()
 
 
 - Imbalanced Classification Report
 
+![]()
 
-*Snaps*
 
 
 
