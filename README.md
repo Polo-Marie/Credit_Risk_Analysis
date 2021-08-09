@@ -127,13 +127,19 @@ The confusion matrix and imbalanced classification report are as follows:
 ![](Photos/EasyEnsembleClassifier_CR_Snap.png)
 
 
+## Concluding Summary
+In Summary of the results, we looked at both Resampling Models and Ensemble Learning Models to attempt to identify the best machine model to predict credit risks. 
 
+Within each of these models, we tried out different algorithms. The algorithms under each model are as follows along with their accuracies:
 
+- Resampling Model
+  - RandomOverSampler: 64%
+  - SMOTE: 65%
+  - ClusterCentroids: 54%
+  - SMOTEENN: 64%
 
+- Ensemble Learning
+  - BalancedRandomForestClassifier: 79%
+  - EasyEnsembleClassifier: 93%
 
-Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
-
-Summary:
-
-There is a summary of the results (2 pt)
-There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
+Based on the results obtained for this analysis, the least recommended machine model and algorithm is the Resampling Model, using the ClusterCentroids algorithm. The best model for this analysis is Ensemble Learning that consisted of both the EasyEnsembleClassifier and BalancedRandomForestClassifier. These produced the greatest accuracies of all machine models. In regard to the most accurate of all algorithms, the EasyEnsembleClassifier was the best with an accuracy of 93%. With the accuracy of 93%, we can concluse that this model can be utilized to predict credit risk amongst applicants.
